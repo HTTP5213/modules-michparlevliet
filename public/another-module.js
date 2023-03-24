@@ -9,9 +9,9 @@ const HobbitSettlement = class {
 	}
 };
 
-let buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
+const buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
 
-let theShire = new HobbitSettlement('The Shire', 1601, ['Marcho', 'Blanco']);
+const theShire = new HobbitSettlement('The Shire', 1601, ['Marcho', 'Blanco']);
 
 export {
   theShire,
